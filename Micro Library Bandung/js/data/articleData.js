@@ -50,7 +50,7 @@ const relatedPosts = [
         id: 2,
         title: "Pabrik Mochi Arjuna Wijaya Sukabumi",
         date: "28 Mei 2025", 
-        image: "./../Pabrik Moci Sukabumi/images/Foto (5).jpg",
+        image: "./../Foto (5).jpg",
         href : "https://pabrik-mochi-sukabumi-blog-verse.vercel.app/"
     }
 ];
