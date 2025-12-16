@@ -6,7 +6,7 @@ const articleData = {
     date: "14 November 2025",
     author: {
         name: "Sammy",
-        avatar: "./../../Penulis/Sammy.jpg",
+        avatar: "./Penulis/Sammy.jpg",
         bio: "Perjalanan di Micro Library Alun-alun Bandung"
     },
     heroImage: "./images/Foto 1.jpg",
@@ -25,7 +25,7 @@ const articleData = {
             id: "pendahuluan II",
             title: "Apa itu Micro Library Alun-alun Bandung?",
             content: `
-                <p>Micro Library Alun-alun Bandung adalah sebuah perpustakaan yan gberada di alun-alun Bandung. Micro Library ini diresmikan oleh walikota bandung Muhammad Farhan pada tanggal 19 Mei 2025. Micro Library Alun-alun Bandung ini bukan hanya sekedar tempat membaca buku tapi juga sebagai tempat melestarikan sejarah KAA (Konferensi Asia Afrika).</p>
+                <p>Micro Library Alun-alun Bandung adalah sebuah perpustakaan yang berada di alun-alun Bandung. Micro Library ini diresmikan oleh walikota bandung Muhammad Farhan pada tanggal 19 Mei 2025. Micro Library Alun-alun Bandung ini bukan hanya sekedar tempat membaca buku tapi juga sebagai tempat melestarikan sejarah KAA (Konferensi Asia Afrika).</p>
 
                 <img src="./images/Foto 6.jpg" alt="image" class="content-image">
                 
@@ -39,7 +39,7 @@ const articleData = {
 
                 <img src="./images/Foto 5.jpg" alt="image" class="content-image">
 
-                <p>Fungsi dari Micro Library adalah untuk menarik minat orang-oran guntuk membaca buku serta menyimpan sejarah cerita dari KAA (Konferensi Asia Afrika).</p>
+                <p>Fungsi dari Micro Library adalah untuk menarik minat orang-orang guntuk membaca buku serta menyimpan sejarah dari KAA (Konferensi Asia Afrika).</p>
             `
         }
     ]
@@ -50,6 +50,7 @@ const relatedPosts = [
         id: 2,
         title: "Pabrik Mochi Arjuna Wijaya Sukabumi",
         date: "28 Mei 2025", 
-        image: "./../Pabrik Moci Sukabumi/images/Foto (5).jpg"
+        image: "./../Pabrik Moci Sukabumi/images/Foto (5).jpg",
+        href : "https://pabrik-mochi-sukabumi-blog-verse.vercel.app/"
     }
 ];
